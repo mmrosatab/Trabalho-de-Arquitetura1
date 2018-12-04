@@ -1,0 +1,3 @@
+Comando para compilar no papi
+
+gcc LU.c -o LU -I/usr/local/share/papi/testlib -L/usr/local/lib/libpapi.a -L/usr/local/share/papi/testlib/libtestlib.a
